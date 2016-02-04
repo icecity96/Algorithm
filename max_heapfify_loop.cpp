@@ -1,3 +1,4 @@
+//6.2-5
 #include <iostream>
 
 #define LEFT(i)		(2*(i)+1)
