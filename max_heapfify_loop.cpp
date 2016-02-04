@@ -23,7 +23,7 @@ void max_heapfify_loop(int A[],int i,int n)
 		i = largest;
 	}
 }
-
+#ifdef TEST_
 int main(int argc, char **argv) {
 	int A[14]={27, 17, 3, 16, 13, 10,1,5,7,12,4,8,9,0};
 	max_heapfify_loop(A,2,14);
@@ -34,3 +34,4 @@ int main(int argc, char **argv) {
 	cout << endl;
 	return 0;
 }
+#endif
